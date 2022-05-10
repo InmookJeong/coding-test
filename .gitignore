@@ -2,5 +2,6 @@
 *.class
 
 **/server/
+**/.metadata/
 **/workspace/.metadata/
 **/workspace/Servers/
