@@ -1,4 +1,4 @@
-[Mook'story - Lesson 3 : FrogJmp](https://developer-mook.tistory.com/79?category=1023422){:target="_blank"}
+[Mook'story - Lesson 3 : FrogJmp](https://developer-mook.tistory.com/79?category=1023422)
 
 ## 문제
 ```

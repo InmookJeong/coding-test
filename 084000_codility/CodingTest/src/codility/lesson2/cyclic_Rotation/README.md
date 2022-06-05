@@ -1,4 +1,4 @@
-[Mook'story - Lesson 2 : CyclicRotation](https://developer-mook.tistory.com/77?category=1023422){:target="_blank"}
+[Mook'story - Lesson 2 : CyclicRotation](https://developer-mook.tistory.com/77?category=1023422)
 
 ## 문제
 ```

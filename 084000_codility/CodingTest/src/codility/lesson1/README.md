@@ -1,4 +1,4 @@
-[Mook'story - Lesson1](https://developer-mook.tistory.com/75?category=1023422){:target="_blank"}
+[Mook'story - Lesson1](https://developer-mook.tistory.com/75?category=1023422)
 
 ## 문제
 ```
