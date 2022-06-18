@@ -1,38 +1,26 @@
-[Mook'story - Lesson 6 : Triangle](https://developer-mook.tistory.com/120)
+[Mook'story - Lesson 7 : Brackets](https://developer-mook.tistory.com/122)
 
 ## 문제
 ```
-An array A consisting of N integers is given. A triplet (P, Q, R) is triangular if 0 ≤ P < Q < R < N and:
+A string S consisting of N characters is considered to be properly nested if any of the following conditions is true:
  
-        A[P] + A[Q] > A[R],
-        A[Q] + A[R] > A[P],
-        A[R] + A[P] > A[Q].
-For example, consider array A such that:
- 
-        A[0] = 10    A[1] = 2    A[2] = 5
-        A[3] = 1      A[4] = 8    A[5] = 20
-Triplet (0, 2, 4) is triangular.
+        - S is empty;
+        - S has the form "(U)" or "[U]" or "{U}" where U is a properly nested string;
+        - S has the form "VW" where V and W are properly nested strings.
+        - For example, the string "{[()()]}" is properly nested but "([)()]" is not.
  
 Write a function:
  
-        class Solution { public int solution(int[] A); }
+        class Solution { public int solution(String S); }
  
-that, given an array A consisting of N integers, returns 1 if there exists a triangular triplet for this array and returns 0 otherwise.
+that, given a string S consisting of N characters, returns 1 if S is properly nested and 0 otherwise.
  
-For example, given array A such that:
- 
-        A[0] = 10    A[1] = 2    A[2] = 5
-        A[3] = 1      A[4] = 8    A[5] = 20
-the function should return 1, as explained above. Given array A such that:
- 
-        A[0] = 10    A[1] = 50    A[2] = 5
-        A[3] = 1
-the function should return 0.
+For example, given S = "{[()()]}", the function should return 1 and given S = "([)()]", the function should return 0, as explained above.
  
 Write an efficient algorithm for the following assumptions:
  
-        - N is an integer within the range [0..100,000];
-        - each element of array A is an integer within the range [−2,147,483,648..2,147,483,647].
+        - N is an integer within the range [0..200,000];
+        - string S consists only of the following characters: "(", "{", "[", "]", "}" and/or ")".
  
 Copyright 2009–2022 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
 ```
